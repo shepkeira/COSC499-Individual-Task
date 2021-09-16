@@ -1,6 +1,6 @@
 from random import randint
 import math
-
+# Game B
 def guess_number():
     num = int(randint(0, 100))
     print("I am a random number generater!")
