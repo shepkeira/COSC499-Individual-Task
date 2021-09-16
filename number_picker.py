@@ -25,8 +25,6 @@ def accept_guess():
     return guess
 
 def compare_number(num, guess):
-    print("num: ", type(num))
-    print("guess: ", type(guess))
     success = False
     if num == guess:
         message = "Correct!"
